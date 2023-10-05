@@ -1,0 +1,263 @@
+/* Estilos personalizados para el navbar */
+.navbar {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    background-color: #56728f;  /* Color de fondo */
+    text-align: center; /* Centra el contenido horizontalmente */
+    padding: 20px 20px;
+  }
+  
+  .navbar-text {
+    color: #ffffff; /* Color del texto del logo */
+    font-size: 57px; /* Tamaño de la fuente del logo */
+    font-weight: bold;
+  }
+  
+  /* Estilos para centrar el contenido */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+
+
+  
+  /* ------------------------------------------- */
+  /* CSS personalizado para diseñar las tarjetas */
+  .custom-card {
+    background-color: #6e94bf0a;
+    border: 1px solid #2875a8;
+    border-radius: 10px;
+  
+    padding: 50px;
+    font-size: 50px;
+    height: 300%; /* Ajustar la altura de los cuadros */
+    width: 300px; 
+    
+    margin: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrar contenido verticalmente */
+    align-items: center; /* Centrar contenido verticalmente */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+  
+    flex-wrap: wrap;
+    margin: 100 -50px; /* Ajustar el valor según sea necesario */
+  }
+  
+  .custom-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-title {
+    font-size: 1.8rem;
+    margin-top: 10px;
+    color: #020202;
+  }
+  
+  .card-text {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  /* Estilo adicional para iconos */
+  .card-body .ri-3x {
+    font-size: 48px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  /* Margen personalizado para separar la barra de navegación y las tarjetas */
+  
+  /* Ajustando el diseño de la tarjeta en pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .custom-card {
+      padding: 15px;
+      font-size: 18px;
+    }
+  }
+  
+
+
+
+  /* cuadro */
+
+
+
+  
+  * {
+    box-sizing: border-box;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    background-color: #53758d3d;
+}
+.login {
+    width: 450px; /* Ajusta el ancho del cuadro según tu preferencia */
+    background-color: #ffffff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    margin: 56px auto;
+    padding: 20px; /* Añade un espacio interior para separar los elementos internos del borde */
+
+}
+.login h1 {
+    text-align: center;
+    color: #5b6574;
+    font-size: 35px;
+    /* padding: 5px 0; */
+    border-bottom: 1px solid #dee0e4;
+    /* padding-bottom: 25px; Añade espacio debajo del título */
+
+}
+.login form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
+}
+.login form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:60px;
+    height: 60px;
+    background-color: #56728f;
+    color: #ffffff;
+}
+.login form input[type="password"], 
+.login form input[type="text"] {
+  
+    flex-grow: 1; /* Permite que los campos de entrada crezcan para llenar el espacio disponible */
+    width: 310px;
+    height: 60px;
+    border: 1px solid #dee0e4;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+.login form input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    margin-top: 5px;
+    background-color: #56728f;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.2s;
+}
+.login form input[type="submit"]:hover {
+  background-color: darkblue;
+    transition: background-color 0.2s;
+}
+
+.navtop {
+	background-color: darkblue;
+	height: 60px;
+	width: 100%;
+	border: 0;
+}
+.navtop div {
+	display: flex;
+	margin: 0 auto;
+	width: 1000px;
+	height: 100%;
+}
+.navtop div h1, .navtop div a {
+	display: inline-flex;
+	align-items: center;
+}
+.navtop div h1 {
+	flex: 1;
+	font-size: 24px;
+	padding: 0;
+	margin: 0;
+	color: #eaebed;
+	font-weight: normal;
+}
+.navtop div a {
+	padding: 0 20px;
+	text-decoration: none;
+	color: #c1c4c8;
+	font-weight: bold;
+}
+.navtop div a i {
+	padding: 2px 8px 0 0;
+}
+.navtop div a:hover {
+	color: #eaebed;
+}
+body.loggedin {
+	background-color: #f3f4f7;
+}
+.content {
+	width: 1000px;
+	margin: 0 auto;
+}
+.content h2 {
+	margin: 0;
+	padding: 25px 0;
+	font-size: 22px;
+	border-bottom: 1px solid #e0e0e3;
+	color: #4a536e;
+}
+.content > p, .content > div {
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+	margin: 25px 0;
+	padding: 25px;
+	background-color: #fff;
+}
+.content > p table td, .content > div table td {
+	padding: 5px;
+}
+.content > p table td:first-child, .content > div table td:first-child {
+	font-weight: bold;
+	color: #4a536e;
+	padding-right: 15px;
+}
+.content > div p {
+	padding: 5px;
+	margin: 0 0 10px 0;
+}
+  
+  
+
+
+
+
+
+
+/* Estilos para el icono del ojo */
+#togglePassword {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+#togglePassword i {
+  font-size: 18px;
+  color: #888;
+}
+
+
+
+
+
+
+
+
+
+
+
+

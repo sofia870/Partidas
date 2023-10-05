@@ -1,0 +1,141 @@
+  /* Estilos para el navbar */
+  .navbar {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    background-color: #56728f;  /* Color de fondo */
+    padding: 10px;
+    text-align: center; /* Centra el contenido horizontalmente */
+    height: 100px; /* Ajusta la altura de la barra de navegación */
+  }
+
+  /* Estilos para el texto del navbar */
+  .navbar-text {
+    color: #ffffff; /* Color del texto del logo */
+    font-size: 50px; /* Tamaño de la fuente del logo */
+  }
+
+
+/* Estilos para centrar el contenido */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+  
+  .back-button {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    background-color: #0056b3;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+  }
+  
+  .back-button:hover {
+    background-color: #003f7f;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+  /* ------------------------------- */
+
+
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+      background-color: #53758d14; /* Color de fondo deseado */
+
+  }
+  h1 {
+      text-align: center;
+      margin-top: 20px;
+  }
+  
+  label {
+      display: block;
+      margin-bottom: 5px;
+  }
+  input[type="text"], input[type="date"], select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+
+  }
+  select {
+      height: 40px;
+  }
+  input[type="submit"] {
+      background-color: #3195b3;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+  }
+  input[type="submit"]:hover {
+      background-color: #0056b3;
+  }
+
+
+
+  .date-container {
+    display: flex;
+    align-items: center;
+}
+
+.manual-input {
+    margin-left: 10px;
+}
+.form-row {
+display: flex;
+align-items: center;
+margin-top: 10px;
+}
+
+.form-row label {
+margin-right: 10px;
+}
+
+
+
+
+/* Estilos para la fila de cuadros */
+.fila-cuadros {
+  display: flex; /* Utiliza flexbox para alinear los elementos horizontalmente */
+  justify-content: flex-end; /* Alinea los elementos a la derecha */
+  margin-top: 20px; /* Espacio en la parte superior */
+}
+
+/* Estilos para cada campo (label + caja de texto) */
+.campo {
+  flex: 0 0 auto; /* Hace que los campos no se expandan y tengan un ancho fijo */
+  width: 50px; /* Ancho fijo para los campos (puedes ajustarlo) */
+  margin-left: 20px; /* Espacio entre campos */
+}
+
+.campo label {
+  display: block; /* Mostrar etiquetas en una línea separada */
+  margin-bottom: 5px; /* Espacio entre etiquetas y cajas de texto */
+}
+
+.campo input {
+  width: 100%; /* Ancho completo de las cajas de texto */
+  padding: 5px; /* Espacio interno en los campos de entrada */
+}

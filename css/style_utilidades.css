@@ -1,0 +1,101 @@
+/* Estilos personalizados para el navbar */
+
+body {
+  background-color: #53758d14; /* Color de fondo deseado */
+}
+.navbar {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    background-color: #56728f;  /* Color de fondo */
+    padding: 10px;
+    text-align: center; /* Centra el contenido horizontalmente */
+    height: 100px; /* Ajusta la altura de la barra de navegación */
+  
+  }
+  
+  .navbar-text {
+    color: #ffffff; /* Color del texto del logo */
+    font-size: 50px; /* Tamaño de la fuente del logo */
+  }
+  
+  /* Estilos para centrar el contenido */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+
+
+  
+  /* ------------------------------------------- */
+  /* CSS personalizado para diseñar las tarjetas */
+  .custom-card {
+    background-color: #6e94bf0a;
+    border: 1px solid #2875a8;
+    border-radius: 10px;
+  
+    padding: 50px;
+    font-size: 50px;
+    height: 300%; /* Ajustar la altura de los cuadros */
+    width: 300px; 
+    
+    margin: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrar contenido verticalmente */
+    align-items: center; /* Centrar contenido verticalmente */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+  
+    flex-wrap: wrap;
+    margin: 100 -50px; /* Ajustar el valor según sea necesario */
+  }
+  
+  .custom-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-title {
+    font-size: 1.8rem;
+    margin-top: 10px;
+    color: #020202;
+  }
+  
+  .card-text {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  /* Estilo adicional para iconos */
+  .card-body .ri-3x {
+    font-size: 48px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  /* Margen personalizado para separar la barra de navegación y las tarjetas */
+  .container {
+    margin-top: 50px; /* Ajusta el valor según sea necesario */
+  }
+  
+  /* Ajustando el diseño de la tarjeta en pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .custom-card {
+      padding: 15px;
+      font-size: 18px;
+    }
+  }
+  
+
+
+
+
+  
+  

@@ -1,0 +1,234 @@
+/* Estilos personalizados para el navbar */
+.navbar {
+  display: flex;
+  flex-direction: column; /* Cambio en la dirección del flujo */
+  align-items: center;
+  justify-content: center;
+  background-color: #56728f;
+  color: white;
+  padding: 25px 20px;
+}
+
+.nav-container {
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.system-title {
+  font-weight: bold;
+  font-size: 47px;
+  margin-bottom: 10px;
+  order: 1; /* Cambia el orden del sistema de título a 1 */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: lightgray;
+}
+
+.content {
+  padding: 100px 20px;
+}
+
+/* CSS personalizado para diseñar las tarjetas */
+.custom-card {
+  background-color: #6e94bf0a;
+  border: 1px solid #2875a8;
+  border-radius: 10px;
+  padding: 50px;
+  font-size: 50px;
+  height: 300%; /* Ajustar la altura de los cuadros */
+  width: 300px;
+  margin: 10px;
+  margin-bottom: 10px;
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 1.8rem;
+  margin-top: 10px;
+  color: #020202;
+}
+
+.card-text {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.card-body .ri-3x {
+  font-size: 48px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+/* Margen personalizado para separar la barra de navegación y las tarjetas */
+.container {
+  margin-top: 50px; /* Ajusta el valor según sea necesario */
+}
+
+/* Ajustando el diseño de la tarjeta en pantallas más pequeñas */
+@media (max-width: 768px) {
+  .custom-card {
+      padding: 15px;
+      font-size: 18px;
+  }
+}
+
+/* Estilos personalizados para la tercera barra de navegación */
+#consulta-bar {
+  background-color: #cedbdc9c;
+  width: 60%;
+  margin: 20px auto;
+  padding: 3px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+#consulta-bar .system-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #333333df;
+}
+
+/* Estilos para el contenedor */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: -80px; /* Ajusta el margen superior según tus preferencias */
+}
+
+/* Estilos para el formulario */
+form {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+h1 {
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 500px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#resultado {
+  margin-top: 20px;
+}
+
+/* Estilo para mover el cuadro de búsqueda hacia arriba */
+#search-box {
+  margin-top: -200px; /* Puedes ajustar la cantidad de espacio superior según tus necesidades */
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.result-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f5f5f5;
+  margin-top: -200px;
+}
+
+.system-subtitle {
+
+
+  margin-bottom: 10px;
+  order: 2; /* Cambia el orden del sistema de título a 1 */
+  font-size: 25px;
+  font-weight: bold;
+  color: #333333df;}
+
+.centered-container {
+  text-align: center;
+}
+
+/* Eliminar estilos duplicados */
+body {
+  background-color: #53758d14;
+  margin: 0;
+}
+
+.navbar-text {
+  color: #ffffff;
+  font-size: 50px;
+}
+
+.btn {
+  background-color: #3195b3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn:last-child {
+  margin-right: 0;
+}
+
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  padding-top: 20px;
+}
+
+.sidebar a {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+}
